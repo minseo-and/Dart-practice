@@ -18,4 +18,10 @@ void main() {
 
   dictionary2['Hermione Granger'] = '말포이';
   print(dictionary2);
+
+  dictionary2.remove('Hermione Granger');
+  print(dictionary2);
+
+  print(dictionary2.keys.toList());
+  print(dictionary2.values.toList());
 }
